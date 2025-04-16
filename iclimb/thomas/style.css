@@ -1,0 +1,73 @@
+
+body {
+    font-family: Calibri;
+    margin: 0 !important; /* override user agent */
+}
+
+img {
+    width: 14px;
+    height: 14px;
+    margin-left: 6px;
+}
+
+.header {
+    height: 54px;
+    line-height: 1.7em;
+    padding: 10px 16px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 2em;
+    /* background */
+    background: rgb(191,243,1);
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* sticky */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    color: rgb(17,85,204);
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+a:visited {
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding-top: 68px;
+}
+
+h1 {
+    background: rgb(232,255,151);
+    padding: 8px 16px 8px 16px;
+    margin: 0px;
+}
+
+.year {
+    background: rgb(191,243,1);
+}
+
+.day {
+    margin: 0px 16px;
+}
+
+.comment {
+    margin-top: 16px;
+}
+
+.ascent {
+    margin-top: 3px;
+}
+
+.ascentTitle {
+    font-weight: bold;
+}
